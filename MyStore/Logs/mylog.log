@@ -1,0 +1,12 @@
+[INFO ] 2024-06-04 13:06:40.781 [main] MyStore - URL Opened
+[INFO ] 2024-06-04 13:06:43.782 [main] MyStore - Clicked on the Sign On
+[INFO ] 2024-06-04 13:06:44.843 [main] MyStore - Email address entered in the Field
+[INFO ] 2024-06-04 13:06:45.740 [main] MyStore - Clicked on the Created Account btn
+[INFO ] 2024-06-04 13:06:45.743 [main] MyStore - Account Creation Started by Entering Details
+[INFO ] 2024-06-04 13:11:06.196 [main] MyStore - URL Opened
+[INFO ] 2024-06-04 13:11:09.160 [main] MyStore - Clicked on the Sign On
+[INFO ] 2024-06-04 13:11:10.042 [main] MyStore - Email address entered in the Field
+[INFO ] 2024-06-04 13:11:11.075 [main] MyStore - Clicked on the Created Account btn
+[INFO ] 2024-06-04 13:11:11.079 [main] MyStore - Account Creation Started by Entering Details
+[INFO ] 2024-06-04 13:11:23.177 [main] MyStore - Account Creation Comoleted
+[INFO ] 2024-06-04 13:11:23.413 [main] MyStore - User validate Complete 
