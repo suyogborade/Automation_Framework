@@ -54,7 +54,7 @@ public class BaseClass {
 		
 	}
 	
-	@AfterClass(enabled =false)
+	@AfterClass(enabled =true)
 	public void tearDown() {
 		driver.close();
 		driver.quit();
