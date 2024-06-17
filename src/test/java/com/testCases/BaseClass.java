@@ -25,7 +25,23 @@ public class BaseClass {
 	@BeforeClass
 	public void setUp()
 	{
-		switch (browser.toLowerCase()) {
+		String browsername= "chrome";
+		
+		if(browsername.equals("chrome"))
+		{
+			driver = new ChromeDriver();
+		}
+		
+		else if(browsername.equals("firefox"))
+		{
+			driver = new FirefoxDriver();
+		}
+		
+		else if(browsername.equals("safari")) 
+		{
+			driver = new SafariDriver();
+		}
+	/*	switch (browser.toLowerCase()) {
 		case "chrome": 
 			driver = new ChromeDriver();
 			break;
@@ -41,7 +57,7 @@ public class BaseClass {
 		default:
 			driver = new ChromeDriver();
 			break;
-		}
+		} */
 		
 	
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
