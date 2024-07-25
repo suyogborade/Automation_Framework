@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-13T10:08:42 IST" name="Default suite" finished-at="2024-06-13T10:09:29 IST" duration-ms="47137">
+  <suite started-at="2024-06-19T09:20:14 IST" name="Default suite" finished-at="2024-06-19T09:21:55 IST" duration-ms="101396">
     <groups>
     </groups>
-    <test started-at="2024-06-13T10:08:42 IST" name="Default test" finished-at="2024-06-13T10:09:29 IST" duration-ms="47137">
+    <test started-at="2024-06-19T09:20:14 IST" name="Default test" finished-at="2024-06-19T09:21:55 IST" duration-ms="101396">
       <class name="com.testCases.TC_MyAccountPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testCases.TC_MyAccountPageTest@6e6f2380]" started-at="2024-06-13T10:08:42 IST" name="setUp" finished-at="2024-06-13T10:08:54 IST" duration-ms="11895" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testCases.TC_MyAccountPageTest@d86a6f]" started-at="2024-06-19T09:20:14 IST" name="setUp" finished-at="2024-06-19T09:21:28 IST" duration-ms="74407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyRegistrationLogin()[pri:0, instance:com.testCases.TC_MyAccountPageTest@6e6f2380]" started-at="2024-06-13T10:08:54 IST" name="verifyRegistrationLogin" finished-at="2024-06-13T10:09:29 IST" duration-ms="34946" status="FAIL">
+        <test-method signature="verifyRegistrationLogin()[pri:0, instance:com.testCases.TC_MyAccountPageTest@d86a6f]" started-at="2024-06-19T09:21:28 IST" name="verifyRegistrationLogin" finished-at="2024-06-19T09:21:55 IST" duration-ms="26750" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#id_gender1"}
-  (Session info: chrome=126.0.6478.57)
+  (Session info: chrome=126.0.6478.61)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [aa3bd70f721a28dd890af79a15aded17, findElement {value=id_gender1, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.57, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: /var/folders/09/3td50r097lg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64861}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64861/devtoo..., se:cdpVersion: 126.0.6478.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aa3bd70f721a28dd890af79a15aded17]]>
+Command: [d2e529060be5bd0c95b7b9a6ee4ac3f5, findElement {using=id, value=id_gender1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.61, chrome: {chromedriverVersion: 126.0.6478.62 (b2781ca4c383..., userDataDir: /var/folders/09/3td50r097lg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63223}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63223/devtoo..., se:cdpVersion: 126.0.6478.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d2e529060be5bd0c95b7b9a6ee4ac3f5]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#id_gender1"}
-  (Session info: chrome=126.0.6478.57)
+  (Session info: chrome=126.0.6478.61)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.5', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [aa3bd70f721a28dd890af79a15aded17, findElement {value=id_gender1, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.57, chrome: {chromedriverVersion: 126.0.6478.55 (7616ff175414..., userDataDir: /var/folders/09/3td50r097lg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64861}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64861/devtoo..., se:cdpVersion: 126.0.6478.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aa3bd70f721a28dd890af79a15aded17
+Command: [d2e529060be5bd0c95b7b9a6ee4ac3f5, findElement {using=id, value=id_gender1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.61, chrome: {chromedriverVersion: 126.0.6478.62 (b2781ca4c383..., userDataDir: /var/folders/09/3td50r097lg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63223}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63223/devtoo..., se:cdpVersion: 126.0.6478.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d2e529060be5bd0c95b7b9a6ee4ac3f5
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -89,7 +89,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegistrationLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.TC_MyAccountPageTest@6e6f2380]" started-at="2024-06-13T10:09:29 IST" name="tearDown" finished-at="2024-06-13T10:09:29 IST" duration-ms="236" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.TC_MyAccountPageTest@d86a6f]" started-at="2024-06-19T09:21:55 IST" name="tearDown" finished-at="2024-06-19T09:21:55 IST" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
